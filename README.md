@@ -13,7 +13,7 @@ Main Reference: [https://webassembly.github.io/spec/core/binary/modules.html]
 
 - Validation of **magic number** & **version**
 - Parsing of sections: **Type (1)**, **Function (3)**, **Global (6)**, and **Code (10)**
-- Instruction support:
+- Instructions supported:
   - **Arithmetic:** `i32.add`, `i32.sub`, `i32.mul`, `i32.div_s/u`, `i32.rem_s`
   - **Memory:** `i32.load`, `i32.store`, `load8/16_{s,u}`, `store8/16`
   - **Locals/Globals:** `local.get`, `local.set`, `local.tee`, `global.get`, `global.set`
