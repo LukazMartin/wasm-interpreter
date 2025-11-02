@@ -63,11 +63,11 @@ The compiled binary is already included.
 
 From the folder `wasm-interpreter/out/build/x64-debug`, run:
 
-.\wasm-interpreter.exe ..\..\..\tests\wat\01_test.wasm
+`.\wasm-interpreter.exe ..\..\..\tests\wat\01_test.wasm`
 
 If it fails, recompile by running:
 
-cmake --build . --config Debug
+`cmake --build . --config Debug`
 
 ### 2. Convert `.wat` to `.wasm`
 
