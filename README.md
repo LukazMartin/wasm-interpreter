@@ -3,7 +3,7 @@
 ## Overview
 
 This project implements a **minimal WebAssembly (WASM) interpreter** in **C++**.
-It supports core MVP **i32 instructions**, locals/globals, memory operations, and structured control flow.  
+It supports **i32 instructions**, locals/globals, memory operations, and structured control flow.  
 
 Main Reference: [https://webassembly.github.io/spec/core/binary/modules.html]
 
