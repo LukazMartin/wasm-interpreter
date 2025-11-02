@@ -1,10 +1,12 @@
-# WebAssembly Interpreter – Assessment
+# WebAssembly Interpreter â€“ Assessment
 
 ## Overview
 
 This project implements a **minimal WebAssembly (WASM) interpreter** in **C++**, capable of parsing and executing `.wasm` binaries generated from the provided test modules (`tests/wat/`).  
 It supports core MVP **i32 instructions**, locals/globals, memory operations, and structured control flow.  
 The goal was to demonstrate correct WASM decoding, execution semantics, and clean C++ design.
+
+Main Reference: [https://webassembly.github.io/spec/core/binary/modules.html]
 
 ---
 
@@ -48,7 +50,7 @@ The goal was to demonstrate correct WASM decoding, execution semantics, and clea
 
 ## Limitations
 
-- Advanced features like `call`, `call_indirect` are not implemented  
+- Advanced features like `call_indirect`,  are not implemented  
 - Only `01_test.wat` has been executed  
 
 ---
